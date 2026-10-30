@@ -7,7 +7,7 @@ name = "quantum-confinement-lab"
 version = "1.0.0"
 description = "Validated numerical models of semiconductor quantum wells"
 readme = "README.md"
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.11,<3.15"
 license = {text = "MIT"}
 authors = [{name = "Hajar Mrifag"}]
 dependencies = [
