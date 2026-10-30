@@ -4,6 +4,8 @@
 
 A reproducible computational-physics investigation of how confinement width, finite barriers, and effective-mass assumptions change electron energies and spatial probability distributions in idealized one-dimensional quantum wells.
 
+**[Launch the live scientific explorer](https://3exuhqn3o7tsxleenzomsm.streamlit.app/)**
+
 ![Calculated GaAs/AlGaAs states](figures/state_profiles.png)
 
 ## The research question

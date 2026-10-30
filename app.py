@@ -175,7 +175,7 @@ with tab_accuracy:
 
 with tab_methods:
     st.markdown(
-        """
+        r"""
 ### What is calculated
 
 The code solves the one-dimensional time-independent Schrödinger eigenproblem on a uniform grid. Infinite and ordinary finite wells use the constant-mass operator. The semiconductor model uses
