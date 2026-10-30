@@ -2,10 +2,18 @@
 
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
+
+# Streamlit Community Cloud runs the entry point from the repository root.
+# Keep the src-layout package importable even when the platform installs only
+# runtime requirements rather than the editable project package.
+sys.path.insert(0, str(Path(__file__).resolve().parent / "src"))
 
 from quantum_confinement.models import finite_square_well, infinite_square_well, semiconductor_well
 from quantum_confinement.reference import finite_well_reference, infinite_well_energies
