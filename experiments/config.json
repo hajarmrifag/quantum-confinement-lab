@@ -1,0 +1,17 @@
+{
+  "material_baseline": {
+    "system": "GaAs/Al0.30Ga0.70As",
+    "temperature_assumption": "low-temperature bulk parameters",
+    "well_mass_ratio": 0.067,
+    "barrier_mass_ratio": 0.0919,
+    "conduction_offset_ev": 0.253,
+    "offset_sensitivity_ev": [0.244, 0.261]
+  },
+  "representative_well": {
+    "width_nm": 8.0,
+    "padding_nm": 10.0,
+    "reported_spacing_nm": 0.01
+  },
+  "deterministic": true,
+  "random_seed": null
+}

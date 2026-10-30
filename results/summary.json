@@ -1,0 +1,73 @@
+{
+  "generated_by": "experiments/run_all.py",
+  "width_scaling_ground_state_log_slope": -1.9999999999999865,
+  "grid_observed_order_last_three": 1.0066091380623665,
+  "infinite_well_max_relative_error": 5.140409750969965e-06,
+  "finite_reference_max_abs_error_mev": 2.8027814360246373,
+  "bdd_reference_max_abs_error_mev": 1.3154682133388051,
+  "eight_nm_253mev": [
+    {
+      "width_nm": 8.0,
+      "barrier_ev": 0.253,
+      "state_n": 1,
+      "finite_fd_mev": 45.49854085619909,
+      "finite_reference_mev": 45.57891897388101,
+      "fd_reference_error_mev": -0.08037811768191183,
+      "infinite_energy_mev": 87.6936012371438,
+      "finite_shift_percent": -48.11646435506679,
+      "leakage_percent": 5.2586974673233495
+    },
+    {
+      "width_nm": 8.0,
+      "barrier_ev": 0.253,
+      "state_n": 2,
+      "finite_fd_mev": 169.18466862545154,
+      "finite_reference_mev": 169.40026209551615,
+      "fd_reference_error_mev": -0.21559347006461227,
+      "infinite_energy_mev": 350.7744049485752,
+      "finite_shift_percent": -51.76824014561308,
+      "leakage_percent": 26.21850264590011
+    }
+  ],
+  "eight_nm_mass_model": [
+    {
+      "width_nm": 8.0,
+      "state_n": 1,
+      "constant_mass_mev": 45.49854085619909,
+      "variable_mass_mev": 42.04877532951383,
+      "matching_reference_mev": 42.118003054376615,
+      "mass_model_shift_mev": -3.4497655266852654,
+      "bdd_reference_error_mev": -0.06922772486278594
+    },
+    {
+      "width_nm": 8.0,
+      "state_n": 2,
+      "constant_mass_mev": 169.18466862545154,
+      "variable_mass_mev": 162.24230397716914,
+      "matching_reference_mev": 162.4858601053343,
+      "mass_model_shift_mev": -6.942364648282378,
+      "bdd_reference_error_mev": -0.24355612816515104
+    }
+  ],
+  "baseline_heterostructure": [
+    {
+      "scenario": "baseline",
+      "well_mass_ratio": 0.067,
+      "barrier_mass_ratio": 0.0919,
+      "offset_ev": 0.253,
+      "state_n": 1,
+      "energy_mev": 42.048775329513845,
+      "leakage_percent": 5.17553292759118
+    },
+    {
+      "scenario": "baseline",
+      "well_mass_ratio": 0.067,
+      "barrier_mass_ratio": 0.0919,
+      "offset_ev": 0.253,
+      "state_n": 2,
+      "energy_mev": 162.24230397716914,
+      "leakage_percent": 23.797606263194503
+    }
+  ],
+  "domain_12nm_error_mev": -0.13869080676871814
+}
